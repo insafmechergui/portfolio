@@ -311,7 +311,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @media screen and (min-width: 640px) {
 .bars li {
-   margin: 30px;
+   margin: 0 10% 5% 0;
 }
 
 }
