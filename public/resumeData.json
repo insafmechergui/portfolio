@@ -1,7 +1,7 @@
 {
   "main": {
     "name":"Insaf Mechergui",
-    "occupation":"Développement JavaScript Full Stack",
+    "occupation":"Développeur JavaScript Full Stack",
     "description":"Here will be your description. Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
     "image":"profilepic.jpg",
     "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
@@ -35,7 +35,6 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
         "school":"RBK",
@@ -56,18 +55,18 @@
         "description":"Creation de dossier médicale informatisée pour les patients d'hémodialyse"
       },
       {
-        "school":"RBK",
-        "degree":"Javascript Full Stack",
-        "graduated":"Février 2020",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "school":"Institut Supérieur des Sciences Appliquées et de Technologie",
+        "degree":"Licence en informatique industriel",
+        "graduated":"Juillet 2014",
+        "description":"Automatisation du four poche."
       }
     ],
     "work":[
       {
         "company":"RBK",
-        "title":"Class Coordinator",
-        "years":"March 2020 - Present",
-        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "title":"Coordinatrice de classe",
+        "years":"Mars 2020 - Present",
+        "description":"Prendre soin des éleves et de leur emotion durant toute la phase et enseignante"
       },
       {
         "company":"Super Cool Studio",
@@ -79,31 +78,55 @@
     "skills":[
       {
         "name":"Git",
-        "level":"60%"
+        "picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/1200px-Octicons-mark-github.svg.png"
       },
       {
-        "name":"Illustrator",
-        "level":"55%"
+        "name":"HTML5 && CSS3",
+        "picture":"https://laurentportfolioblog.files.wordpress.com/2016/09/logo-html5-css3.png"
+      },
+      {
+        "name":"JavaScript",
+        "picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png"
       },
       {
         "name":"ReactJs",
-        "level":"50%"
+        "picture":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
       },
       {
-        "name":"HTML && CSS",
-        "level":"90%"
+        "name":"AngularJs",
+        "picture":"https://www.softfluent.fr/wp-content/uploads/2019/10/angularjs.png"
       },
       {
-        "name":"HTML5",
-        "level":"80%"
+        "name":"Angular8",
+        "picture":"https://www.ambient-it.net/wp-content/uploads/2019/04/whats-new-in-angular-min.jpg"
+      },     
+      {
+        "name":"NodeJs",
+        "picture":"https://www.hello-pomelo.com/wp-content/uploads/2019/07/NodeJS.jpg"
       },
       {
-        "name":"VueJs",
-        "level":"50%"
+        "name":"ExpressJs",
+        "picture":"https://codaholic.sillo.org/wp-content/uploads/2019/12/express.jpg"
+      },
+      {
+        "name":"PHP",
+        "picture":"https://www.ballajack.com/wp-content/uploads/2017/03/logo-php.png"
+      },
+      {
+        "name":"Flutter",
+        "picture":"https://img-a.udemycdn.com/course/480x270/2038800_2774_2.jpg"
+      },
+      {
+        "name":"Laravel",
+        "picture":"https://cotiga-world.com/images/competences/logo-laravel.jpg"
       },
       {
         "name":"MongoDB",
-        "level":"80%"
+        "picture":"https://zdnet3.cbsistatic.com/hub/i/r/2018/02/16/8abdb3e1-47bc-446e-9871-c4e11a46f680/resize/1200x900/66e2d67a951cc4a3a60be76f56e0d105/mongo-db-logo.png"
+      },
+      {
+        "name":"MySQL",
+        "picture":"https://pngimg.com/uploads/mysql/mysql_PNG22.png"
       }
     ]
   },

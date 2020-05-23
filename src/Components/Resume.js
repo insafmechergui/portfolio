@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-
+// import fab from '../../public/css/font-awesome';
+// import {GitHubIcon} from '@material-ui/icons';
 class Resume extends Component {
   render() {
 
@@ -17,8 +18,8 @@ class Resume extends Component {
         </div>
       })
       var skills = this.props.data.skills.map(function(skills){
-        var className = 'bar-expand '+skills.name.toLowerCase();
-        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+        return <li key={skills.name} ><img src={skills.picture}/><br></br><em>{skills.name}</em></li>
+        // return GitHubIcon
       })
     }
 
@@ -43,7 +44,7 @@ class Resume extends Component {
       <div className="row work">
 
          <div className="three columns header-col">
-            <h1><span>Work</span></h1>
+            <h1><span>Expérience</span></h1>
          </div>
 
          <div className="nine columns main-col">
@@ -56,7 +57,7 @@ class Resume extends Component {
       <div className="row skill">
 
          <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
+            <h1><span>Compétances</span></h1>
          </div>
 
          <div className="nine columns main-col">

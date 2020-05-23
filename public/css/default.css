@@ -148,7 +148,6 @@ body {
    font-size: 15px;
    line-height: 30px;
 	color: #838C95;
-
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
 }
@@ -593,9 +592,9 @@ input[type="checkbox"] { display: inline; }
 /* default
 --------------------------------------------------------------- */
 .row {
-   width: 96%;
-   max-width: 1020px;
-   margin: 0 auto;
+   width: 85%;
+   /* max-width: 1020px; */
+   margin:  auto;
 }
 /* fixed width for IE8 */
 .ie .row { width: 1000px ; }
@@ -728,8 +727,8 @@ properly.
    .column, .columns {
 	   width: auto !important;
 	   float: none;
-	   margin-left: 0;
-	   margin-right: 0;
+	   /* margin-left: 0;
+	   margin-right: 0; */
       padding: 0 30px;
    }
    .row .row { width: auto; max-width: none; margin: 0 -30px; }
